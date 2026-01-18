@@ -10,12 +10,12 @@ const Category = () => {
           Product Categories
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
           {categories.map((item) => (
             <Link
               key={item.slug}
               href={`/category/${item.slug}`}
-              className="relative h-[150px] rounded-md overflow-hidden group"
+              className="relative h-[220px] rounded-md overflow-hidden group"
             >
               {/* BACKGROUND IMAGE */}
               <Image
