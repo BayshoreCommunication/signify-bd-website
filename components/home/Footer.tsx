@@ -51,6 +51,12 @@ const Footer = () => {
               +880 1878-754017
             </Link>
           </div>
+
+          <div>
+            <p className="flex items-center gap-2 text-black font-semibold ">
+              Address: House 21, Road-1, Block -A, Aftabnogor, Dhaka, Bangladesh
+            </p>
+          </div>
         </div>
       </div>
     </section>
