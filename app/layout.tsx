@@ -15,7 +15,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Signify Bangladesh",
   description: "Signify Bangladesh",
-  metadataBase: new URL("https://signify-bd.vercel.app"),
+  metadataBase: new URL("https://www.signifybd.com"),
   alternates: {
     canonical: "/",
     languages: {
