@@ -16,7 +16,7 @@ const Footer = () => {
             height={150}
             className="w-[160px] h-auto mx-auto "
           />
-          <div className="flex items-center gap-2 justify-center ">
+          <div className="flex flex-col lg:flex-row items-center gap-2 justify-center ">
             <p className="font-medium text-gray-600">
               For order, contact us on Facebook:
             </p>
@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <p className="flex items-center gap-2 text-black font-semibold ">
+            <p className="flex items-center gap-2 text-black font-semibold text-center">
               Address: House 21, Road-1, Block -A, Aftabnogor, Dhaka, Bangladesh
             </p>
           </div>
