@@ -36,11 +36,11 @@ const Navbar: React.FC = () => {
 
         {/* CALL BUTTON */}
         <a
-          href="tel:+8801719322423"
+          href="tel:+8801878754017"
           className="flex items-center gap-2 bg-black text-white px-4 py-3 rounded-sm hover:bg-[#4275FF] transition font-medium"
         >
           <IoIosCall className="text-xl" />
-          <span className="hidden sm:inline">+880 1719-322423</span>
+          <span className="hidden sm:inline"> +880 1878-754017</span>
         </a>
       </div>
     </header>
